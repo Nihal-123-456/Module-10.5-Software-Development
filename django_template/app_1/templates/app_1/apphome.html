@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This app one Home</h1>
+    <h3>{{ age | add:"2" }}</h3>
+    <h3>{{ quo | addslashes }}</h3>
+    <h3>{{ quo | capfirst }}</h3>
+    <h3>{{ quo | cut:" " }}</h3>
+    <h3>{{ date | date:"D d M Y" }}</h3>
+    <h3>{{ list | dictsort:"name" }}</h3>
+    <h3>{{ age | divisibleby:"3" }}</h3>
+    <h3>{{ age | filesizeformat }}</h3>
+    <h3>{{ list | first }}</h3>
+    <h3>{{ list | last }}</h3>
+    <h3>{{ arr | join:" // " }}</h3>
+    <h3>{{ quo | length }}</h3>
+    <h3>{{ line | linenumbers }}</h3>
+    <h3>{{ text | lower }}</h3>
+    <h3>{{ text | make_list }}</h3>
+    <h3>{{ arr | random }}</h3>
+    <h3>{{ arr | slice:":2" }}</h3>
+    <h3>{{ text | slugify }}</h3>
+    <h3>{{ date | time:"H:i" }}</h3>
+    <h3>{{ s_date | timesince:e_date }}</h3>
+    <h3>{{ quo | title }}</h3>
+    <h3>{{ quo | upper }}</h3>
+    <h3>{{ quo | wordcount }}</h3>
+</body>
+</html>
